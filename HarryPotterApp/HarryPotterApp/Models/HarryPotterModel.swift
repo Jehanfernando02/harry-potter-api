@@ -222,7 +222,7 @@
 
 import Foundation
 
-struct HarryPotterModel : Codable {
+struct HarryPotterModel : Codable, Identifiable {
     let title: String
     let authorName: String
     let authorKey: String
