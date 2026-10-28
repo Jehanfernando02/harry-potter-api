@@ -1,0 +1,241 @@
+//
+//  HarryPotterModel.swift
+//  HarryPotterApp
+//
+//  Created by Jehan Fernando on 2026-10-28.
+//
+
+/*
+ {
+   "author_key": [
+     "OL23919A"
+   ],
+   "author_name": [
+     "J. K. Rowling"
+   ],
+   "cover_edition_key": "OL61027601M",
+   "cover_height": 4358,
+   "cover_i": 15155833,
+   "cover_width": 2676,
+   "ebook_access": "borrowable",
+   "edition_count": 400,
+   "first_publish_year": 1997,
+   "has_fulltext": true,
+   "ia": [
+     "isbn_9757501956008",
+     "harrypotterylapi0000rowl_q5r6",
+     "harrypottervefel0000rowl",
+     "isbn_9788204086600",
+     "rbanms.24646.harrypotterphilo000jkro_e4c6",
+     "bwb_W9-DHS-647",
+     "harrypotter01har0000joan",
+     "harrypotterochde0000unse",
+     "harijspotersunfi0000unse",
+     "halibote0000rowl",
+     "harrypotterikami0000unse",
+     "isbn_9783551317254",
+     "isbn_9788000007885",
+     "isbn_6780180353427",
+     "harryzzauberboxb0000jkro",
+     "harrypottertome10000jkro",
+     "harrypotterylapi0000unse",
+     "snj.harrypotterphilo0000jkro_t6f3",
+     "snj.harrypotterphilo0001jkro",
+     "snj.harrypotterphilo0000jkro_s9g6",
+     "harrypotterilape0000jkro",
+     "haliboteyumofash0000rowl",
+     "harrypotterphilo0000jkro",
+     "harrypotterepedr0000jkro",
+     "harrypotterogdev0000rowl",
+     "harrypotterkamen0000rowl",
+     "lccn_078073006991",
+     "harrypotterphilo0000jkro_j6k0",
+     "harrypottersorce0000unse",
+     "harrypotteresbol0000rowl",
+     "harrypottersorce0000rowl_a6t2",
+     "harrypotterylapi0000rowl",
+     "harrypotterylapi0000rowl_d7v1",
+     "harrypottermagic0000rowl_p4p3",
+     "harrypotteraleco0000rowl",
+     "harrypottersorce0000rowl_t5a1",
+     "harrypottersorce0000rowl_l6l8",
+     "harrypottersorce0000rowl_i9p5",
+     "harrypottersorce0000rowl_1998",
+     "harrypottersorce0000rowl",
+     "harrypotterylapi0000jkro",
+     "harrypotterphilo0000rowl_d8d4",
+     "harrypotterphilo0000rowl_i7z2",
+     "harriuspotteretp0000rowl",
+     "harrypotterphilo0000rowl_k0s6",
+     "haliboteshenmide0000rowl",
+     "hirparaauraprasa0000rowl",
+     "haripattervasang0000rowl",
+     "areiospoterkaihe00rowl",
+     "harrypotterelapi00jkro",
+     "harrypottersorce00rowl_1",
+     "harrypottersorce00jkro_0",
+     "harrypotterikami0000jkro",
+     "harrypotterylapi00",
+     "haripottatokenja00jkro",
+     "harrypottersorce00rowl",
+     "harrypottersorc00rowl",
+     "harrypottersorce00rowl_0",
+     "harrypotterphilo0000rowl_t2o9",
+     "harrypotterphilo0000rowl_j1k7",
+     "harrypottersorce00jkro",
+     "isbn_9789984053851",
+     "harrypotterylapi00rowl",
+     "harrypotteraguso0000rowl",
+     "garripotterifilo00jkro",
+     "harrypotterundde0000jkro",
+     "harrypotterdhegu0000jkro",
+     "harrypotterphilo0000rowl_u9v4",
+     "harispoterisiris0000jkro",
+     "harripottermaeny0000jkro",
+     "harrypotterlcole0000unse",
+     "harrypotterochde0000unse_c9n9",
+     "harrypotteriharr0000jkro",
+     "harrypotterphilo0000rowl",
+     "harrypottersorce0000rowl_h8m5",
+     "harrypotterundde0000rowl",
+     "harriuspotteretp00jkro",
+     "harrypotterphilo00rowl_044",
+     "harriuspotteretp00rowl",
+     "bdrc-W1KG14543"
+   ],
+   "ia_collection": [
+     "JaiGyan",
+     "ServantsOfKnowledge-Print",
+     "ambslibrary-ol",
+     "americana",
+     "americanuniversity-ol",
+     "bannedbooks",
+     "barryuniversity-ol",
+     "belmont-ol",
+     "binghamton-ol",
+     "bpljordan-ol",
+     "brynmawr-ol",
+     "buddhist-digital-resource-center",
+     "buddhist-digital-resource-center-restricted",
+     "cnusd-ol",
+     "cua-ol",
+     "dartmouthlibrary-ol",
+     "delawarecountydistrictlibrary",
+     "delawarecountydistrictlibrary-ol",
+     "denverpubliclibrary-ol",
+     "drakeuniversity-ol",
+     "goffstownlibrary-ol",
+     "gwulibraries-ol",
+     "hamiltonpubliclibrary-ol",
+     "inlibrary",
+     "internetarchivebooks",
+     "ithacacollege-ol",
+     "johnshopkins-ol",
+     "marymount-ol",
+     "miltonpubliclibrary-ol",
+     "occidentalcollegelibrary-ol",
+     "openlibrary-d-ol",
+     "popularchinesebooks",
+     "printdisabled",
+     "randolph-macon-college-ol",
+     "rochester-ol",
+     "salisburyfreelibrary-ol",
+     "spokanepubliclibrary-ol",
+     "the-claremont-colleges-ol",
+     "tulsacc-ol",
+     "uhmauicollege-ol",
+     "unb-ol",
+     "uni-ol",
+     "universityofarizona-ol",
+     "universityofcoloradoboulder-ol",
+     "universityofthewest-ol",
+     "wilsoncollege-ol",
+     "worthingtonlibraries-ol"
+   ],
+   "key": "/works/OL82563W",
+   "language": [
+     "fre",
+     "rum",
+     "eng",
+     "ltz",
+     "mar",
+     "ukr",
+     "afr",
+     "ice",
+     "ben",
+     "tha",
+     "fin",
+     "alb",
+     "nep",
+     "lit",
+     "hrv",
+     "hin",
+     "spa",
+     "dan",
+     "vie",
+     "rus",
+     "grc",
+     "gle",
+     "ara",
+     "por",
+     "yid",
+     "lav",
+     "heb",
+     "bul",
+     "urd",
+     "cat",
+     "nor",
+     "wel",
+     "ita",
+     "tib",
+     "per",
+     "gla",
+     "ger",
+     "cze",
+     "swe",
+     "jpn",
+     "hun",
+     "gre",
+     "kal",
+     "pol",
+     "lat",
+     "tur",
+     "kor",
+     "chi",
+     "dut"
+   ],
+   "lending_edition_s": "OL61057835M",
+   "lending_identifier_s": "isbn_9757501956008",
+   "public_scan_b": false,
+   "series_key": [
+     "OL326110L"
+   ],
+   "series_name": [
+     "Harry Potter"
+   ],
+   "series_position": [
+     "1"
+   ],
+   "title": "Harry Potter and the Philosopher's Stone"
+ },
+ */
+
+import Foundation
+
+struct HarryPotterModel : Codable {
+    let title: String
+    let authorName: String
+    let authorKey: String
+    let coverWidth: Int
+    let ebookAccess: String
+    let firstPublishYear: Int
+    
+    enum CodingKeys: String, CodingKey {
+        case title
+        case authorName = "author_name"
+        case authorKey = "author_key"
+        case coverWidth = "cover_width"
+        case ebookAccess = "ebook_access"
+        case firstPublishYear = "first_publish_year"
+    }
+}
