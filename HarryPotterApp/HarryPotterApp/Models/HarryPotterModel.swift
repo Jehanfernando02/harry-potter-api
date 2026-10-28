@@ -223,9 +223,9 @@
 import Foundation
 
 struct HarryPotterModel : Codable, Identifiable {
+    let id: String
     let title: String
     let authorName: String
-    let authorKey: String
     let coverWidth: Int
     let ebookAccess: String
     let firstPublishYear: Int
@@ -233,7 +233,7 @@ struct HarryPotterModel : Codable, Identifiable {
     enum CodingKeys: String, CodingKey {
         case title
         case authorName = "author_name"
-        case authorKey = "author_key"
+        case id = "author_key"
         case coverWidth = "cover_width"
         case ebookAccess = "ebook_access"
         case firstPublishYear = "first_publish_year"
