@@ -19,10 +19,11 @@ struct ContentView: View {
                     } else {
                         List {
                             ForEach(books) { book in
-                                VStack {
-                                    Text(book.title)
-                                    Text(book.authorName)
-                                    Text(String(book.firstPublishYear))
+                                VStack(alignment: .leading,spacing: 4) {
+                                    Text(book.title).font(.headline)
+                                    Text(book.authorName).font(.caption)
+                                    Text(String(book.firstPublishYear)).font(.caption)
+
                                    
                                 }
                             }
